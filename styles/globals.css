@@ -21,6 +21,12 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #1d0021;
   }
 }
+
+/* TAILWIND CSS */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
