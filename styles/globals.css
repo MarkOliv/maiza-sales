@@ -33,6 +33,10 @@ a {
   font-family: "Kanit", sans-serif;
 }
 
+#part2 {
+  background-image: url("/pages/assets/bg-sobre.png");
+  background-color: #120014;
+}
 /* TAILWIND CSS */
 
 @tailwind base;
