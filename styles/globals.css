@@ -1,3 +1,6 @@
+/* FONT KANIT */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&display=swap");
+
 html,
 body {
   padding: 0;
@@ -21,8 +24,23 @@ a {
   }
   body {
     color: white;
-    background: #1d0021;
+    /* background: #1d0021; */
+    background: black;
   }
+}
+
+#kanit {
+  font-family: "Kanit", sans-serif;
+}
+
+#part2,
+#part3 {
+  background-color: #120014;
+}
+
+#parte1,
+#parte4 {
+  background-color: #1d0021;
 }
 
 /* TAILWIND CSS */
