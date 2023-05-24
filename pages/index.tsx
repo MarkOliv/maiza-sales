@@ -6,7 +6,7 @@ import decorativotop from "./assets/decorativo-top.png";
 import Sobre from "./components/Sobre";
 import Garantia from "./components/Garantia";
 import ParaQuem from "./components/ParaQuem";
-import Rodape from "./components/rodape";
+import Rodape from "./components/Rodape";
 
 export default function Home() {
   return (
