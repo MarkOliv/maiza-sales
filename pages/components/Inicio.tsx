@@ -9,7 +9,7 @@ import vantagens from "../assets/vantagens.png";
 
 const Inicio = (props: Props) => {
   return (
-    <div className="container mx-auto  bg-[#1d0021]">
+    <div id="parte1" className="container mx-auto">
       <Image
         className="-mt-[100px] md:-mt-[440px]"
         src={decorativotop}
