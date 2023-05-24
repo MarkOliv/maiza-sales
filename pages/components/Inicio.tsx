@@ -50,8 +50,10 @@ const Inicio = (props: Props) => {
         >
           QUERO PARTICIPAR
         </div>
-        <div className="flex justify-center w-full my-10 md:p-20 p-10">
-          <Image src={vantagens} alt="" />
+        <div className="flex justify-center w-full">
+          <div className="w-[1000px] my-10 md:p-24 p-10">
+            <Image src={vantagens} alt="" />
+          </div>
         </div>
       </div>
     </div>
