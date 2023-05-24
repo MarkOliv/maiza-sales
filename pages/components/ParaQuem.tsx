@@ -13,21 +13,30 @@ const ParaQuem = (props: Props) => {
         <span className="text-[#ff00e5] font-medium">Curso</span>
       </h1>
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <div
+          id="fotoMobile"
+          className="flex justify-center items-center md:hidden block"
+        >
+          <Image src={FOTO02} alt="foto maiza" />
+        </div>
         <div id="texto" className="grid grid-cols-1 p-10">
-          <p id="kanit" className="text-2xl text-right">
+          <p id="kanit" className="text-2xl text-center my-5 md:text-right">
             Cabelereira iniciantes Quer aprender da maneira certa a criar o LISO
             PREMIUN em qualquer cabelo...
           </p>
-          <p id="kanit" className="text-2xl text-right">
+          <p id="kanit" className="text-2xl text-center my-5 md:text-right">
             Deseja faturar mais de $3.000.00 sendo Especialista em Alisamento
             com pouco investimento..
           </p>
-          <p id="kanit" className="text-2xl text-right">
+          <p id="kanit" className="text-2xl text-center my-5 md:text-right">
             Amaria ter seu próprio Salão de Beleza e ser referência
           </p>
         </div>
-        <div id="foto" className="flex justify-center items-center">
+        <div
+          id="foto"
+          className="flex justify-center items-center md:block hidden"
+        >
           <Image src={FOTO02} alt="foto maiza" />
         </div>
       </div>
