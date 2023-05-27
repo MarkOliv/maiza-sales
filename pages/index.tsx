@@ -5,7 +5,8 @@ import Inicio from "./components/Inicio";
 import decorativotop from "./assets/decorativo-top.png";
 import Sobre from "./components/Sobre";
 import Garantia from "./components/Garantia";
-import ParaQuem from "./components/paraQuem";
+import ParaQuem from "./components/ParaQuem";
+import Rodape from "./components/Rodape";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Sobre />
       <Garantia />
       <ParaQuem />
+      <Rodape />
     </div>
   );
 }
