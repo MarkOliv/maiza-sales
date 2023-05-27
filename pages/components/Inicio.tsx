@@ -44,12 +44,13 @@ const Inicio = (props: Props) => {
         </div>
       </div>
       <div className="flex flex-wrap justify-center">
-        <div
+        <a
+          href="https://pay.hotmart.com/A69854210Q"
           id="kanit"
           className="rounded-3xl md:px-28 px-10 py-5 bg-gradient-to-r from-[#c368d1] to-[#ff00e5] md:text-4xl text-3xl font-semibold md:mt-3 mt-14"
         >
           QUERO PARTICIPAR
-        </div>
+        </a>
         <div className="flex justify-center w-full my-10 md:p-20 p-10">
           <Image src={vantagens} alt="" />
         </div>

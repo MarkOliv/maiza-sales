@@ -32,6 +32,15 @@ const ParaQuem = (props: Props) => {
           <p id="kanit" className="text-2xl text-center my-5 md:text-right">
             Amaria ter seu próprio Salão de Beleza e ser referência
           </p>
+          <div className="flex justify-end p-20">
+            <a
+              href="https://pay.hotmart.com/A69854210Q"
+              id="kanit"
+              className="rounded-3xl md:px-14 px-10 py-5 bg-gradient-to-r from-[#c368d1] to-[#ff00e5] md:text-4xl text-3xl font-semibold md:mt-3 mt-14"
+            >
+              QUERO PARTICIPAR
+            </a>
+          </div>
         </div>
         <div
           id="foto"
