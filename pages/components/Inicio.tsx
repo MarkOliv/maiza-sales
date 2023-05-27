@@ -50,17 +50,11 @@ const Inicio = (props: Props) => {
           className="rounded-3xl md:px-28 px-10 py-5 bg-gradient-to-r from-[#c368d1] to-[#ff00e5] md:text-4xl text-3xl font-semibold md:mt-3 mt-14"
         >
           QUERO PARTICIPAR
-<<<<<<< HEAD
         </a>
-        <div className="flex justify-center w-full my-10 md:p-20 p-10">
-          <Image src={vantagens} alt="" />
-=======
-        </div>
         <div className="flex justify-center w-full">
           <div className="w-[1000px] my-10 md:p-24 p-10">
             <Image src={vantagens} alt="" />
           </div>
->>>>>>> 8d739332da045b84f9375d485e1a59e56516f621
         </div>
       </div>
     </div>
