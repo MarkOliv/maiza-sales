@@ -7,7 +7,10 @@ import Image from "next/image";
 const Sobre = (props: Props) => {
   return (
     <div id="part2" className="container mx-auto">
-      <h1 id="kanit" className="text-5xl text-center py-10">
+      <h1
+        id="kanit"
+        className="text-5xl xl:text-5xl md:text-4xl text-center py-10"
+      >
         Mais Sobre o<br /> Treinamento{" "}
         <span className="text-[#ff00e5] font-medium">Liso Premium</span>
       </h1>
@@ -18,7 +21,7 @@ const Sobre = (props: Props) => {
           </div>
           <h1
             id="kanit"
-            className="flex justify-center items-center md:text-3xl"
+            className="flex justify-center items-center md:text-2xl lg:text-3xl"
           >
             Você vai aprender a atrair e recuperar <br /> clientes pelo Whatsapp
           </h1>
@@ -29,7 +32,7 @@ const Sobre = (props: Props) => {
           </div>
           <h1
             id="kanit"
-            className="flex justify-center items-center md:text-3xl"
+            className="flex justify-center items-center md:text-2xl lg:text-3xl"
           >
             Domine o Botox capilar
           </h1>
@@ -43,7 +46,7 @@ const Sobre = (props: Props) => {
           </div>
           <h1
             id="kanit"
-            className="flex justify-center items-center md:text-3xl"
+            className="flex justify-center items-center md:text-2xl lg:text-3xl"
           >
             Tenha acesso ao Grupo de alunos com <br />
             suporte personalizado

@@ -11,7 +11,7 @@ const Inicio = (props: Props) => {
   return (
     <div id="parte1" className="container mx-auto">
       <Image
-        className="-mt-[100px] md:-mt-[440px]"
+        className="-mt-[100px] md:-mt-[230px]"
         src={decorativotop}
         alt=""
       />
@@ -22,10 +22,10 @@ const Inicio = (props: Props) => {
         >
           <Image src={FOTO01} alt="" />
         </div>
-        <div id="titulo" className="flex justify-center items-center ">
-          <h1 className="text-3xl md:text-6xl font-bold md:text-left text-center">
+        <div id="titulo" className="flex justify-center items-center md:pl-10">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold md:text-left text-center">
             {" "}
-            <span id="kanit" className="md:text-4xl text-xl font-normal">
+            <span id="kanit" className="lg:text-4xl text-xl font-normal">
               Aprenda Agora Mesmo
             </span>
             <br /> A Fazer Os Melhores
@@ -38,7 +38,7 @@ const Inicio = (props: Props) => {
         </div>
         <div
           id="imagem"
-          className="md:block hidden flex justify-center items-center"
+          className="md:block hidden flex justify-center items-center md:p-5"
         >
           <Image src={FOTO01} alt="" />
         </div>
