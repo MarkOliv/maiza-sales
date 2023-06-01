@@ -11,7 +11,7 @@ const Inicio = (props: Props) => {
   return (
     <div id="parte1" className="container mx-auto">
       <Image
-        className="-mt-[100px] md:-mt-[230px]"
+        className="-mt-[100px] md:-mt-[230px] 2xl:-mt-[440px] xl:-mt-[340px] lg:-mt-[290px]"
         src={decorativotop}
         alt=""
       />
