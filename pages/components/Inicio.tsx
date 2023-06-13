@@ -26,14 +26,22 @@ const Inicio = (props: Props) => {
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold md:text-left text-center">
             {" "}
             <span id="kanit" className="lg:text-4xl text-xl font-normal">
-              Aprenda Agora Mesmo
+              Aprenda o segredo dos Alisamentos
             </span>
-            <br /> A Fazer Os Melhores
+            <br />
+            <span id="kanit" className="lg:text-5xl text-xl font-normal">
+              Que me fez faturar
+            </span>
             <span className="text-[#ff00e5]">
-              <br /> Alisamentos
-              <br /> de Cabelo
+              <br />
+              Mais de R$10.000
+              <br />
+              por mês
             </span>
-            <br /> Da Sua Cidade !
+            <br />
+            <span id="kanit" className="lg:text-4xl text-xl font-normal">
+              Mesmo que você seja iniciante
+            </span>
           </h1>
         </div>
         <div
@@ -47,9 +55,9 @@ const Inicio = (props: Props) => {
         <a
           href="https://pay.hotmart.com/A69854210Q"
           id="kanit"
-          className="rounded-3xl md:px-28 px-10 py-5 bg-gradient-to-r from-[#c368d1] to-[#ff00e5] md:text-4xl text-3xl font-semibold md:mt-3 mt-14"
+          className="rounded-3xl md:px-28 px-10 py-5 bg-gradient-to-r from-[#c368d1] to-[#ff00e5] md:text-4xl text-3xl font-semibold md:mt-3 mt-14 hover:brightness-75"
         >
-          QUERO PARTICIPAR
+          QUERO APRENDER
         </a>
         <div className="flex justify-center w-full">
           <div className="w-[1000px] my-10 md:p-24 p-10">
