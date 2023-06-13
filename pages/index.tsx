@@ -3,19 +3,28 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Inicio from "./components/Inicio";
 import decorativotop from "./assets/decorativo-top.png";
-import Sobre from "./components/Sobre";
+import Sobre from "./components/Questionamentos";
 import Garantia from "./components/Garantia";
 import ParaQuem from "./components/ParaQuem";
 import Rodape from "./components/Rodape";
+import Treinamento from "./components/Treinamento";
+import Oferta from "./components/Oferta";
+import Questionamentos from "./components/Questionamentos";
+import Conteudos from "./components/Conteudos";
 
 export default function Home() {
   return (
     <div>
       <Inicio />
-      <Sobre />
-      <Garantia />
+      <Treinamento />
+      <Oferta />
+      <Questionamentos />
+      <Conteudos />
       <ParaQuem />
       <Rodape />
+      {/* <Garantia /> */}
+
+      {/* <Sobre /> */}
     </div>
   );
 }
