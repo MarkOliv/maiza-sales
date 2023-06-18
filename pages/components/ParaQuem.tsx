@@ -32,7 +32,7 @@ const ParaQuem = (props: Props) => {
           <p id="kanit" className="text-2xl text-center my-5 md:text-right">
             Amaria ter seu próprio Salão de Beleza e ser referência
           </p>
-          <div className="flex lg:justify-end justify-center p-20">
+          <div className="flex lg:justify-end justify-center md:p-20">
             <a
               href="https://pay.hotmart.com/A69854210Q"
               id="kanit"

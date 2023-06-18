@@ -70,7 +70,7 @@ const Conteudos = (props: Props) => {
             • RETOQUE DE RAIZ E CRISTALIZAÇÃO
           </p>
 
-          <div className="flex lg:justify-start justify-center p-20">
+          <div className="flex lg:justify-start justify-center md:p-20">
             <a
               href="https://pay.hotmart.com/A69854210Q"
               id="kanit"
@@ -118,7 +118,7 @@ const Conteudos = (props: Props) => {
           <h1 className="text-4xl font-bold text-center mt-10">
             CURSOS <span className="text-[#ff00e5]">BÔNUS</span>
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 mx-20 my-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:mx-20 md:my-20 my-10 mx-10">
             <div>
               <div className="my-5">
                 <h1 id="kanit" className="text-3xl text-center md:text-left">
@@ -151,7 +151,7 @@ const Conteudos = (props: Props) => {
             temos suporte pelo whatsapp
           </p>
 
-          <div className="w-full flex justify-center my-20 p-10">
+          <div className="w-full flex justify-center md:my-20 p-10">
             <a
               href="https://pay.hotmart.com/A69854210Q"
               id="kanit"
