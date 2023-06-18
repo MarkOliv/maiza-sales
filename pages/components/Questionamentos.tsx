@@ -7,7 +7,7 @@ import Image from "next/image";
 const Questionamentos = (props: Props) => {
   return (
     <div id="part2" className="container mx-auto">
-      <div className="flex justify-center py-20">
+      <div className="flex justify-center md:py-20">
         <h1
           id="kanit"
           className="w-[900px] text-3xl xl:text-5xl md:text-4xl text-center py-10"
@@ -17,7 +17,7 @@ const Questionamentos = (props: Props) => {
           que sua cliente vai lavar o cabelo e vai ficar lisinho?
         </h1>
       </div>
-      <div className="grid grid-cols-1 grid-rows-4 px-20">
+      <div className="grid grid-cols-1 grid-rows-4 md:px-20 px-5">
         <div className="flex flex-wrap md:flex-nowrap my-10 md:justify-start justify-center ">
           <div className="flex justify-center w-full md:w-auto">
             <div className="flex justify-center items-center h-32 w-32 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
@@ -36,7 +36,11 @@ const Questionamentos = (props: Props) => {
         </div>
         <div className="flex flex-wrap md:flex-nowrap my-10 md:justify-end justify-center ">
           <div className="flex justify-center w-full md:w-auto md:hidden block">
-            <div className="h-32 w-32 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5" />
+            <div className="flex justify-center items-center h-32 w-32 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
+              <span id="kanit" className="text-6xl font-bold ">
+                ?
+              </span>
+            </div>
           </div>
           <h1
             id="kanit"
@@ -79,7 +83,7 @@ const Questionamentos = (props: Props) => {
             </span>{" "}
             TER TODAS ESSAS DÚVIDAS!  PORQUE{" "}
             <span className="bg-[#FF0000] leading-relaxed">
-              EU JÁ PASSEI POR
+              EU JÁ PASSEI POR ISSO
             </span>{" "}
             DENTRO DO MEU SALÃO
           </p>
