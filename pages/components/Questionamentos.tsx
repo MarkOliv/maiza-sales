@@ -17,7 +17,7 @@ const Questionamentos = (props: Props) => {
           que sua cliente vai lavar o cabelo e vai ficar lisinho?
         </h1>
       </div>
-      <div className="grid grid-cols-1 grid-rows-3 px-20">
+      <div className="grid grid-cols-1 grid-rows-4 px-20">
         <div className="flex flex-wrap md:flex-nowrap my-10 md:justify-start justify-center ">
           <div className="flex justify-center w-full md:w-auto">
             <div className="flex justify-center items-center h-32 w-32 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
@@ -67,6 +67,30 @@ const Questionamentos = (props: Props) => {
           >
             Não sabe qual a temperatura exata para <br /> cada tipo de cabelo.
           </h1>
+        </div>
+        <div className="flex justify-center flex-wrap">
+          <p
+            id="kanit"
+            className="md:text-5xl text-xl text-center font-bold leading-relaxed"
+          >
+            <span className="bg-[#FF0000] leading-relaxed">
+              {" "}
+              EU SEI COMO É DIFICIL
+            </span>{" "}
+            TER TODAS ESSAS DÚVIDAS!  PORQUE{" "}
+            <span className="bg-[#FF0000] leading-relaxed">
+              EU JÁ PASSEI POR
+            </span>{" "}
+            DENTRO DO MEU SALÃO
+          </p>
+
+          <p id="kanit" className="md:text-4xl text-center font-semibold my-10">
+            Mas calma, eu criei um{" "}
+            <span className="bg-[#FF0000]">TREINAMENTO LISO PREMIUM</span> onde
+            eu coloquei tudo que você precisa saber para ter muita segurança
+            desde a hora de conduzir uma conversar com a sua cliente até o
+            momento de fazer ela se apaixonar pelo seus ALISAMENTOS.
+          </p>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ const Oferta = () => {
           <a
             href="https://pay.hotmart.com/A69854210Q"
             id="kanit"
-            className="rounded-3xl md:px-14 px-10 py-5 bg-gradient-to-r from-[#c368d1] to-[#ff00e5] md:text-8xl text-3xl font-semibold md:mt-3 mt-14 text-center hover:brightness-75"
+            className="rounded-3xl md:px-14 px-10 py-5 bg-gradient-to-r from-[#c368d1] to-[#ff00e5] md:text-7xl text-3xl font-semibold md:mt-3 mt-14 text-center hover:brightness-75"
           >
             APROVEITAR OFERTA
           </a>
