@@ -83,7 +83,7 @@ const Questionamentos = (props: Props) => {
             </span>{" "}
             TER TODAS ESSAS DÚVIDAS!  PORQUE{" "}
             <span className="bg-[#FF0000] leading-relaxed">
-              EU JÁ PASSEI POR
+              EU JÁ PASSEI POR ISSO
             </span>{" "}
             DENTRO DO MEU SALÃO
           </p>
