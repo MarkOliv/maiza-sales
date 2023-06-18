@@ -3,8 +3,8 @@ import * as React from "react";
 type Props = {};
 
 import FOTO3 from "../assets/FOTO3.png";
+import SELOBONUS from "../assets/SELOBONUS.svg";
 
-import SELO from "../assets/SELO.png";
 import Image from "next/image";
 
 const Conteudos = (props: Props) => {
@@ -80,30 +80,86 @@ const Conteudos = (props: Props) => {
             </a>
           </div>
         </div>
-      </div>
-      <div
-        id="GARANTIA"
-        className="grid grid-cols-1 md:grid-cols-2 bg-gradient-to-r to-[#B768C3] from-[#FF00E5] py-7 px-7"
-      >
-        <div className=" flex justify-center items-center">
-          <div className="w-[500px]">
-            <Image src={SELO} alt="certificado de conclusão" />
-          </div>
-        </div>
-        <div className="flex flex-wrap items-center justify-center">
-          <h1 className="text-xl md:text-2xl md:leading-[70px] font-bold my-5 md:text-left text-center">
-            Relaxe
-            <br />
-            <span className="text-3xl md:text-5xl font-bold">
-              GARANTIA DE <br />7 DIAS !
-            </span>
-            <p className="text-xl md:text-2xl font-semibold my-5 md:text-left text-center">
-              Fique tranquila! Se não gostar do conteúdo nós devolveremos cada
-              centavo! Se por algum motivo você não gostar do treinamento poderá
-              solicitar reembolso total do valor do curso a qualquer momento
-              dentro do prazo de 7 dias após a compra.
-            </p>
+
+        <div
+          id="aulas teoricas"
+          className="mx-5 md:mx-20 col-span-2 md:col-span-1 my-5"
+        >
+          <h1 className="text-4xl font-bold text-left">
+            Aulas <span className="text-[#ff00e5]">Teóricas</span>
           </h1>
+          <p className="text-xl text-left w-full">
+            Nas aulas teóricas você vai aprender sobre atendimento, sobre a
+            diferença de formol e ácidos, sobre o couro cabeludo.
+          </p>
+        </div>
+        <div />
+        <div />
+        <div
+          id="aulas praticas"
+          className="mx-5 md:mx-20 col-span-2 md:col-span-1 my-5"
+        >
+          <h1 className="text-4xl font-bold text-right">
+            Aulas <span className="text-[#ff00e5]">Praticas</span>
+          </h1>
+          <p className="text-xl text-right">
+            Nas aulas práticas vocÊ vai aprender, retoque de raiz e
+            cristalização e também alisamento em todo o cabelo vai aprender
+            também sobre teste de mecha, sobre higienização, sobre aplicação
+            express, retirada certa do produto após o tempo de pausa
+            (importantíssimo para um resultado de excelência) Escova express,
+            chapinha criativa e mostrar o resultado final para sua cliente. Vai
+            aprender sobre CRISTALIZAÇÃO para suas clientes não ter o cabelo
+            ralo com o tempo.
+          </p>
+        </div>
+
+        <div className="col-span-2">
+          <h1 className="text-4xl font-bold text-center mt-10">
+            CURSOS <span className="text-[#ff00e5]">BÔNUS</span>
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 mx-20 my-20">
+            <div>
+              <div className="my-5">
+                <h1 id="kanit" className="text-3xl text-center md:text-left">
+                  Curso<span className="text-[#ff00e5]"> Botox Capilar</span>
+                </h1>
+                <p id="kanit" className="text-xl text-center md:text-left">
+                  o que é para mim 40% do lucro do meu salão
+                </p>
+              </div>
+              <div className="my-10">
+                <h1 id="kanit" className="text-3xl text-center md:text-left">
+                  Curso Lotando sua agenda através do <br />
+                  <span className="text-[#ff00e5]"> Whatsapp</span>
+                </h1>
+                <p id="kanit" className="text-xl text-center md:text-left">
+                  para você nunca ser esquecida pelas suas clientes
+                </p>
+              </div>
+            </div>
+            <div className="w-full flex justify-center">
+              <div className="w-72">
+                <Image src={SELOBONUS} alt="selo bonus" />
+              </div>
+            </div>
+          </div>
+          <h1 className="text-3xl font-bold text-center mt-10">
+            O <span className="text-[#ff00e5]">SUPORTE</span>
+          </h1>
+          <p className="text-xl font-bold text-center mt-10">
+            temos suporte pelo whatsapp
+          </p>
+
+          <div className="w-full flex justify-center my-20 p-10">
+            <a
+              href="https://pay.hotmart.com/A69854210Q"
+              id="kanit"
+              className="rounded-3xl md:px-28 px-10 py-5 bg-gradient-to-r from-[#c368d1] to-[#ff00e5] md:text-3xl text-3xl text-center font-semibold md:mt-3 mt-14 hover:brightness-75"
+            >
+              QUERO TER ACESSO A TUDO
+            </a>
+          </div>
         </div>
       </div>
     </div>

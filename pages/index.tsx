@@ -11,6 +11,9 @@ import Treinamento from "./components/Treinamento";
 import Oferta from "./components/Oferta";
 import Questionamentos from "./components/Questionamentos";
 import Conteudos from "./components/Conteudos";
+import Perguntas from "./components/Perguntas";
+import Bonus from "./components/Bonus";
+import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
@@ -19,10 +22,14 @@ export default function Home() {
       <Treinamento />
       <Oferta />
       <Questionamentos />
-      <Conteudos />
       <ParaQuem />
+      <Garantia />
+      <Conteudos />
+      <Perguntas />
+      <Garantia />
+      <Bonus />
+      <FAQ />
       <Rodape />
-      {/* <Garantia /> */}
 
       {/* <Sobre /> */}
     </div>
