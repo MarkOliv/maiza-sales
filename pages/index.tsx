@@ -26,7 +26,7 @@ export default function Home() {
       <Garantia />
       <Conteudos />
       <Perguntas />
-      <Garantia />
+
       <Bonus />
       <FAQ />
       <Rodape />
