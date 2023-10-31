@@ -28,7 +28,7 @@ const Bonus = (props: Props) => {
             QUE MOMENTO ELAS PODE ESTAR FAZENDO ESSE PROCEDIMENTO.
           </p>
           <div className="flex justify-center w-full my-20">
-            <div className="w-96">
+            <div className="w-72">
               <Image src={cardBotox} alt="card de preço" />
             </div>
           </div>
@@ -46,7 +46,7 @@ const Bonus = (props: Props) => {
             ISSO FIDELIZA MUITO AS CLIENTES.
           </p>
           <div className="flex justify-center w-full my-20">
-            <div className="w-96">
+            <div className="w-72">
               <Image src={cardWPP} alt="card de preço" />
             </div>
           </div>
