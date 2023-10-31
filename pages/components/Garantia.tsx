@@ -13,7 +13,7 @@ const Garantia = (props: Props) => {
         className="grid grid-cols-1 md:grid-cols-2 bg-gradient-to-r to-[#B768C3] from-[#FF00E5] py-7 px-7"
       >
         <div className=" flex justify-center items-center">
-          <div className="w-[500px]">
+          <div className="w-[250px]">
             <Image src={SELO} alt="certificado de conclusão" />
           </div>
         </div>

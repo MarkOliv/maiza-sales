@@ -29,16 +29,16 @@ const Treinamento = () => {
           PROGRESSIVA{" "}
         </h3>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 p-20 md:p-28 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 p-20 md:p-28 gap-12">
         <div>
           <Image src={cabelo01} alt="cabelo01" />
         </div>
         <div>
           <Image src={cabelo02} alt="cabelo01" />
         </div>
-        <div>
+        {/* <div>
           <Image src={cabelo03} alt="cabelo01" />
-        </div>
+        </div> */}
       </div>
       <div className="flex justify-center pb-20">
         <h3 id="kanit" className="text-2xl md:text-4xl text-center">

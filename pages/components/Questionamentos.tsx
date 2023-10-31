@@ -13,14 +13,14 @@ const Questionamentos = (props: Props) => {
           className="w-[900px] text-3xl xl:text-5xl md:text-4xl text-center py-10"
         >
           Você tem dificuldade em entregar um
-          <span className="text-[#ff00e5] font-medium">Alisamento</span>
+          <span className="text-[#ff00e5] font-medium"> Alisamento</span>
           que sua cliente vai lavar o cabelo e vai ficar lisinho?
         </h1>
       </div>
       <div className="grid grid-cols-1 grid-rows-4 md:px-20 px-5">
         <div className="flex flex-wrap md:flex-nowrap my-10 md:justify-start justify-center ">
           <div className="flex justify-center w-full md:w-auto">
-            <div className="flex justify-center items-center h-32 w-32 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
+            <div className="flex justify-center items-center h-24 w-24 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
               <span id="kanit" className="text-6xl font-bold ">
                 ?
               </span>
@@ -36,7 +36,7 @@ const Questionamentos = (props: Props) => {
         </div>
         <div className="flex flex-wrap md:flex-nowrap my-10 md:justify-end justify-center ">
           <div className="flex justify-center w-full md:w-auto md:hidden block">
-            <div className="flex justify-center items-center h-32 w-32 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
+            <div className="flex justify-center items-center h-24 w-24 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
               <span id="kanit" className="text-6xl font-bold ">
                 ?
               </span>
@@ -50,7 +50,7 @@ const Questionamentos = (props: Props) => {
             de cabelo?
           </h1>
           <div className="flex justify-center w-full md:w-auto md:block hidden">
-            <div className="flex justify-center items-center h-32 w-32 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
+            <div className="flex justify-center items-center h-24 w-24 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
               <span id="kanit" className="text-6xl font-bold ">
                 ?
               </span>
@@ -59,7 +59,7 @@ const Questionamentos = (props: Props) => {
         </div>
         <div className="flex flex-wrap md:flex-nowrap my-10 md:justify-start justify-center ">
           <div className="flex justify-center w-full md:w-auto">
-            <div className="flex justify-center items-center h-32 w-32 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
+            <div className="flex justify-center items-center h-24 w-24 rounded-full bg-gradient-to-t from-[#C368D1] to-[#FF00E5] m-5">
               <span id="kanit" className="text-6xl font-bold ">
                 ?
               </span>
