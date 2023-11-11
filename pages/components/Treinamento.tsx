@@ -15,20 +15,31 @@ const Treinamento = () => {
             id="kanit"
             className="w-[900px] text-5xl xl:text-5xl md:text-4xl text-center py-10"
           >
-            O Treinamento{" "}
+            Treinamento{" "}
             <span className="text-[#ff00e5] font-medium">Liso Premium</span>
           </h1>
         </div>
-        <h3 id="kanit" className="text-2xl md:text-4xl w-[700px] text-center">
-          Tenha acesso ao passo a passo que me fez ter, uma lista de espera de
-          clientes
+        <h3
+          id="kanit"
+          className="text-2xl md:text-4xl w-[700px] text-center p-5"
+        >
+          Aprenda a fazer o verdadeiro Liso espelhado com as misturinhas mágicas
+          e fature de 3 a 5 mil reais por mês... mesmo que você seja uma
+          iniciante !
+        </h3>
+        <h3
+          id="kanit"
+          className="text-2xl md:text-4xl w-[700px] text-center p-5"
+        >
+          Tenha acesso ao passo a passo que me faz ter lista de espera de
+          clientes e melhor sem gastar com produtos caros
         </h3>
       </div>
-      <div className="flex justify-center mt-20">
+      {/* <div className="flex justify-center mt-20">
         <h3 id="kanit" className="text-4xl w-[700px] text-center">
           PROGRESSIVA{" "}
         </h3>
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 md:grid-cols-2 p-20 md:p-28 gap-12">
         <div>
           <Image src={cabelo01} alt="cabelo01" />

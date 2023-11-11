@@ -8,9 +8,9 @@ import Image from "next/image";
 const ParaQuem = (props: Props) => {
   return (
     <div id="parte4" className="container mx-auto">
-      <h1 id="kanit" className="text-5xl text-center py-10">
-        Para quem é o<br />{" "}
-        <span className="text-[#ff00e5] font-medium">Curso</span>
+      <h1 id="kanit" className="text-5xl text-center py-10 px-3">
+        O Liso Premium é para você
+        <br /> <span className="text-[#ff00e5] font-medium">que</span>
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2">
@@ -22,15 +22,18 @@ const ParaQuem = (props: Props) => {
         </div>
         <div id="texto" className="grid grid-cols-1 p-10">
           <p id="kanit" className="text-2xl text-center my-5 md:text-right">
-            Cabelereira iniciantes Quer aprender da maneira certa a criar o LISO
-            PREMIUN em qualquer cabelo...
+            Fica aí gastando horrores em produtos caros e mesmo assim os seus
+            ALISAMENTOS não ficam perfeitos?(Eu passo minha lista secreta de
+            fornecedor para você comprar produtos muito bons e baratos )
           </p>
           <p id="kanit" className="text-2xl text-center my-5 md:text-right">
-            Deseja faturar mais de $3.000.00 sendo Especialista em Alisamento
-            com pouco investimento..
+            Não sabe qual o tempo de pausa para cada espessura de fio de cabelo
+            ?(Eu te ensino a analisar cada fio e saber qual o tempo para cada
+            tipo de cabelo)
           </p>
           <p id="kanit" className="text-2xl text-center my-5 md:text-right">
-            Amaria ter seu próprio Salão de Beleza e ser referência
+            Não sabe como não afinar os fios..(Eu te ensino a misturinha
+            manipulada pra recuperação)
           </p>
           <div className="flex lg:justify-end justify-center md:p-20">
             <a
