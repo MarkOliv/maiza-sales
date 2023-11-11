@@ -15,6 +15,19 @@ const Inicio = (props: Props) => {
         src={decorativotop}
         alt=""
       />
+
+      <div id="imagem" className="flex justify-center items-center p-5">
+        <iframe
+          className="rounded-3xl"
+          width="860"
+          height="515"
+          src="https://www.youtube.com/embed/YkuPNFGpFg0?si=dhxEkHqbJWQ7w-o2"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div
           id="imagem"
