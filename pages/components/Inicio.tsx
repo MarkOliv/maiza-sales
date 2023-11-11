@@ -16,7 +16,7 @@ const Inicio = (props: Props) => {
         alt=""
       />
 
-      <div id="imagem" className="flex justify-center items-center md:p-5">
+      <div id="imagem" className="flex justify-center items-center p-5">
         <iframe
           className="rounded-3xl"
           width="860"
