@@ -31,43 +31,21 @@ const Conteudos = (props: Props) => {
             id="kanit"
             className="text-md text-center my-5 md:text-left font-bold"
           >
-            • ANALISE DOS FIOS HIGIENIZAÇÃO DOS FIOS 
+            • AS MISTURINHAS MANIPULADAS PARA VOCÊ POTENCIALIZAR SEUS
+            ALISAMENTOS E SAIR NA FRENTE DOS SEUS CONCORRENTES...
           </p>
           <p
             id="kanit"
             className="text-md text-center my-5 md:text-left font-bold"
           >
-            • CRISTALIZAÇÃO APLICAÇÃO DO PRODUTO 
+            • LISTA SECRETA DE FORNECEDORES QUE EU USO E INDICO SUPER BARATO E
+            QUE ALISA QUALQUER CABELO
           </p>
           <p
             id="kanit"
             className="text-md text-center my-5 md:text-left font-bold"
           >
-            • TEMPO DE PAUSA PARA CADA TIPO DE CABELO 
-          </p>
-          <p
-            id="kanit"
-            className="text-md text-center my-5 md:text-left font-bold"
-          >
-            • RETIRADA DO PRODUTO SECAGEM E SECAGEM EXPRESS
-          </p>
-          <p
-            id="kanit"
-            className="text-md text-center my-5 md:text-left font-bold"
-          >
-            • CHAPINHA CRIATIVA
-          </p>
-          <p
-            id="kanit"
-            className="text-md text-center my-5 md:text-left font-bold"
-          >
-            • ALISAMENTO NO CABELO TODO
-          </p>
-          <p
-            id="kanit"
-            className="text-md text-center my-5 md:text-left font-bold"
-          >
-            • RETOQUE DE RAIZ E CRISTALIZAÇÃO
+            • CRISTALIZAÇÃO DOS FIOS
           </p>
 
           <div className="flex lg:justify-start justify-center md:p-20">
